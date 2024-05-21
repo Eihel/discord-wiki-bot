@@ -4,7 +4,7 @@
 		"JSBM",
 		" Arnaudwwo",
 		"Étiolles",
-		" ",
+		"eihel",
 		" ",
 		" ",
 		" ",
@@ -13,7 +13,7 @@
 	],
 	"aliases": {
 		"bug": [
-			" ",
+			"bug",
 			" ",
 			" ",
 			" ",
@@ -27,15 +27,15 @@
 			" "
 		],
 		"diff": [
-			" ",
+			"diff",
 			" ",
 			" ",
 			" ",
 			" "
 		],
 		"discussion": [
-			" ",
-			" ",
+			"discussions",
+			"discussion",
 			" ",
 			" ",
 			" "
@@ -48,35 +48,35 @@
 			" "
 		],
 		"info": [
-			" ",
+			"info",
 			" ",
 			" ",
 			" ",
 			" "
 		],
 		"invite": [
-			" ",
+			"invite",
 			" ",
 			" ",
 			" ",
 			" "
 		],
 		"overview": [
-			" ",
+			"aperçu",
 			" ",
 			" ",
 			" ",
 			" "
 		],
 		"page": [
-			" ",
+			"page",
 			" ",
 			" ",
 			" ",
 			" "
 		],
 		"random": [
-			" ",
+			"aléatoire",
 			" ",
 			" ",
 			" ",
@@ -90,14 +90,14 @@
 			" "
 		],
 		"test": [
-			" ",
+			"test",
 			" ",
 			" ",
 			" ",
 			" "
 		],
 		"user": [
-			" ",
+			"user",
 			" ",
 			" ",
 			" ",
@@ -125,7 +125,7 @@
 			"removed": "Retirés :",
 			"size": "Différence :",
 			"tags": "Balises :",
-			"timestamp": "Date :",
+			"timestamp": "Date de modification :",
 			"whitespace": "Espaces uniquement"
 		},
 		"nocomment": "*aucune description*"
@@ -165,16 +165,16 @@
 		"list": {
 			"default": {
 				"cmd": "<terme de recherche>",
-				"desc": "Je vais répondre avec un lien vers un article correspondant sur Wiki :"
+				"desc": "Je répondrai avec un lien vers un article correspondant dans le wiki"
 			},
 			"diff": {
 				"id": {
 					"cmd": "diff <diff> [<oldid>]",
-					"desc": "Je vais répondre avec un lien vers la diff sur Wiki."
+					"desc": "Je répondrai avec un lien vers le diff dans le wiki."
 				},
 				"name": {
 					"cmd": "diff <nom de la page>",
-					"desc": "Je vais répondre avec un lien vers la dernière diff de l'article sur Wiki."
+					"desc": "Je répondrai avec un lien vers la dernière diff sur l'article du wiki."
 				}
 			},
 			"discussion": {
@@ -184,13 +184,13 @@
 				},
 				"thread": {
 					"cmd": "discussion <terme de recherche>",
-					"desc": "Je répondrais avec un lien vers un fil de discussion correspondant sur le wiki Fandom."
+					"desc": "Je répondrai avec un lien vers un thread correspondant dans le wiki Fandom."
 				}
 			},
 			"help": {
 				"admin": {
 					"cmd": "help admin",
-					"desc": "Je vais lister toutes les commandes d'administrateur."
+					"desc": "Je listerai toutes les commandes de l'administrateur."
 				},
 				"command": {
 					"cmd": "help <commande de robot>",
@@ -198,21 +198,21 @@
 				},
 				"default": {
 					"cmd": "help",
-					"desc": "Je vais lister toutes les commandes que je comprends."
+					"desc": "Je listerai toutes les commandes que je comprends."
 				}
 			},
 			"info": {
 				"cmd": "info",
-				"desc": "Je vais me présenter."
+				"desc": "Je me présenterai."
 			},
 			"inline": {
 				"link": {
 					"cmd": "[[<nom de la page>]]",
-					"desc": "Je vais répondre avec un lien de l'article du wiki."
+					"desc": "Je répondrai avec un lien direct vers l'article dans le wiki."
 				},
 				"template": {
 					"cmd": "{{<nom de la page>}}",
-					"desc": "Je vais répondre avec un lien de l'article du wiki, en montrant un aperçu de la page."
+					"desc": "Je répondrai avec un lien vers l'article dans le wiki."
 				}
 			},
 			"minecraft": {
@@ -231,92 +231,92 @@
 			},
 			"mwprojects": {
 				"cmd": "!!<wiki> <mot-clé>",
-				"desc": "Je vais répondre avec un article correspondant dans le projet MediaWiki. Exemple : `$1!!en.wikipedia.org Cookie`"
+				"desc": "Je répondrai avec un lien vers un article correspondant dans le projet MediaWiki nommé. Exemple : `$1!!fr.wikipedia.org Biscuit`"
 			},
 			"overview": {
 				"cmd": "overview",
-				"desc": "Je vais afficher certaines informations et statistiques à propos du wiki."
+				"desc": "Je montrerai quelques informations et statistiques à propos du wiki."
 			},
 			"page": {
 				"cmd": "page <nom de la page>",
-				"desc": "Je vais répondre avec un lien vers l'article du Wiki."
+				"desc": "Je répondrai avec un lien direct vers l'article dans le wiki."
 			},
 			"pause": {
 				"active": {
 					"cmd": "pause $1",
-					"desc": "Je vais recommencer à répondre aux commandes de ce serveur."
+					"desc": "Je répondrai à nouveau à toutes les commandes sur ce serveur."
 				},
 				"inactive": {
 					"cmd": "pause $1",
-					"desc": "Je vais ignorer toutes les commandes sur ce serveur, à l'exception de quelques commandes d'admin."
+					"desc": "J'ignorerai toutes les commandes sur ce serveur, à l'exception de quelques commandes d'admin."
 				}
 			},
 			"random": {
 				"cmd": "random",
-				"desc": "Je vais répondre avec un lien vers une page du Wiki au hasard."
+				"desc": "Je répondrai avec un lien vers une page aléatoire du wiki."
 			},
 			"rcscript": {
 				"add": {
 					"cmd": "rcscript add [<wiki>]",
-					"desc": "Je vais rajouter une intégration qui suit les modifications récentes."
+					"desc": "J'ajouterai une nouvelle intégration des modifications récentes."
 				},
 				"default": {
 					"cmd": "rcscript",
-					"desc": "Je vais changer l'intégration des modifications récentes."
+					"desc": "Je changerai l'intégration des modifications récentes."
 				},
 				"delete": {
 					"cmd": "rcscript delete",
-					"desc": "Je vais supprimer l'intégration des modifications récentes."
+					"desc": "Je supprimerai l'intégration des modifications récentes."
 				},
 				"display": {
 					"cmd": "rcscript display <nouveau mode d'affichage>",
-					"desc": "Je vais changer le mode d'affichage pour l'intégration des modifications récentes."
+					"desc": "Je changerai le mode d'affichage pour l'intégration des modifications récentes."
 				},
 				"feeds": {
 					"cmd": "rcscript feeds",
-					"desc": "Je vais activer les modifications de fils de discussion sur un wiki Fandom pour l'intégration des modifications récentes."
+					"desc": "Je activerai les modifications de fils de discussion sur un wiki Fandom pour l'intégration des modifications récentes."
 				},
 				"lang": {
 					"cmd": "rcscript lang <nouvelle langue>",
-					"desc": "Je vais changer la langue pour l'intégration des modifications récentes."
+					"desc": "Je changerai la langue pour l'intégration des modifications récentes."
 				},
 				"wiki": {
 					"cmd": "rcscript wiki <nouveau wiki>",
-					"desc": "Je vais changer le wiki pour l'intégration des modifications récentes."
+					"desc": "Je changerai le wiki pour l'intégration des modifications récentes."
 				}
 			},
 			"search": {
 				"cmd": "search <mot-clé>",
-				"desc": "Je vais répondre avec un lien vers la page de recherche de l'article sur Wiki."
+				"desc": "Je répondrai avec un lien vers la page de recherche de l'article sur Wiki."
 			},
 			"settings": {
 				"channel": {
 					"cmd": "settings channel",
-					"desc": "Je changerais les écrasements pour le salon actuel."
+					"desc": "Je modifierai les écrasements pour le salon actuel."
 				},
 				"default": {
 					"cmd": "settings",
-					"desc": "Je vais modifier les paramètres de ce serveur."
+					"desc": "Je modifierai les paramètres pour ce serveur."
 				},
 				"inline": {
 					"cmd": "settings inline toggle",
-					"desc": "Je vais activer les commandes inter-messages pour ce serveur."
+					"desc": "Je basculerai les commandes en ligne pour ce serveur."
 				},
 				"lang": {
 					"cmd": "settings lang <langue>",
-					"desc": "Je vais modifier la langue de ce serveur."
+					"desc": "Je changerai la langue pour ce serveur."
 				},
 				"prefix": {
 					"cmd": "settings prefix <préfixe>",
-					"desc": "Je vais changer le préfixe pour ce serveur."
+					"desc": "Je changerai le préfixe pour ce serveur."
 				},
 				"role": {
 					"cmd": "settings role <rôle>",
-					"desc": "Je vais changer le rôle minimal requis pour utiliser des commandes sur ce serveur."
+					"desc": "Je changerai le rôle minimal requis pour utiliser les commandes pour ce serveur."
 				},
 				"wiki": {
 					"cmd": "settings wiki <wiki>",
-					"desc": "Je vais modifier le Wiki par défaut de ce serveur."
+					"desc": "Je changerai le wiki par défaut pour ce serveur."
 				}
 			},
 			"subprefix": {
@@ -329,24 +329,24 @@
 			},
 			"user": {
 				"cmd": "Utilisateur:<nom d'utilisateur>",
-				"desc": "Je vais montrer quelques informations sur l'utilisateur."
+				"desc": "Je montrerai quelques informations sur l'utilisateur."
 			},
 			"verification": {
 				"accountage": {
-					"cmd": "verification <id> accountage <nouvel age requis>",
-					"desc": "Je vais changer l'âge minimal requis (en jours) pour la vérification."
+					"cmd": "verification <id> accountage <nouvel âge requis>",
+					"desc": "Je modifierai l'âge minimum du compte (en jours) pour la vérification du wiki."
 				},
 				"add": {
 					"cmd": "verification add <rôle>",
-					"desc": "Je vais rajouter une nouvelle vérification. J'accepte une liste séparée par `|`."
+					"desc": "J'ajouterai une nouvelle vérification wiki. J'accepte une liste séparée `|`."
 				},
 				"channel": {
 					"cmd": "verification <id> channel <nouveau salon>",
-					"desc": "Je vais changer le salon pour la vérification. J'accepte une liste séparée par `|`."
+					"desc": "Je changerai le salon pour la vérification du wiki. J'accepte une liste séparée par `|`."
 				},
 				"default": {
 					"cmd": "verification",
-					"desc": "Je vais changer les vérifications utilisées par la commande `$1verify` command."
+					"desc": "Je changerai les vérifications utilisées par la commande `$1verify`."
 				},
 				"delete": {
 					"cmd": "verification <id> delete",
